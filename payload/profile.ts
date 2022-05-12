@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import { faGithub, faFacebook, faBlogger } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/_jong1.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -10,12 +10,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '김종원',
+    small: '(Jong1)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'whddnjs822@gmail.com',
       link: '#',
       icon: faEnvelope,
     },
@@ -25,23 +25,22 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/donsonioc2010',
+      link: 'https://github.com/donsonioc2010',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
+      title: 'https://devjong12.tistory.com',
+      link: 'https://devjong12.tistory.com',
+      icon: faBlogger,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      link: 'https://www.facebook.com/jongwon.gim.35',
+      icon: faFacebook,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: '위에 기입되어 있듯 이메일을 통해서 연락주시면 감사하겠습니다.',
     icon: faBell,
   },
 };
