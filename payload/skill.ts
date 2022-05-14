@@ -52,7 +52,7 @@ const etc: ISkill.Skill = {
       title: 'VS Code',
     },
     {
-      title: 'Slack',
+      title: 'Scouter',
     },
   ],
 };
