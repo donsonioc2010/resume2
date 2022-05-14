@@ -3,7 +3,6 @@ import { CommonSection } from '../common/CommonSection';
 import PresentationRow from './row';
 import { ILicense } from './ILicense';
 import { PreProcessingComponent } from '../common/PreProcessingComponent';
-import { DateTime } from 'luxon';
 
 type Payload = ILicense.Payload;
 
