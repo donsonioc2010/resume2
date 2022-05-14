@@ -4,6 +4,116 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '로보스타',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '광주보건대학교',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '대동대학교',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '대우산업개발',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '랄프로렌코리아',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '부산김해경전철',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '소디프',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '쇼박스',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '영남이공대학교',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '예술의전당',
+      startedAt: '2021-08',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
+      title: '이지바이오',
+      startedAt: '2022-05',
+      where: '비즈웰',
+      descriptions: [
+        {
+          content: '납품 서비스 유지보수',
+        },
+      ],
+    },
+    {
       title: 'Inphomation',
       startedAt: '2020-09',
       endedAt: '2020-10',
@@ -16,14 +126,6 @@ const project: IProject.Payload = {
             {
               content:
                 '사진을 촬영하는 방법, 필터등등 사진에 대한 전반적인 정보에 대한 공유가 가능한 커뮤니티 사이트 제작 프로젝트',
-            },
-            {
-              content: 'Github Link : ',
-              postHref: 'https://github.com/JINNYYUN/Inphomation',
-            },
-            {
-              content: 'Blog Post : ',
-              postHref: 'https://devjong12.tistory.com/5?category=904410',
             },
           ],
         },
@@ -68,6 +170,14 @@ const project: IProject.Payload = {
             {
               content: '팀원들과 같이 코드리뷰',
             },
+            {
+              content: 'Github Link : ',
+              postHref: 'https://github.com/JINNYYUN/Inphomation',
+            },
+            {
+              content: 'Blog Post : ',
+              postHref: 'https://devjong12.tistory.com/5?category=904410',
+            },
           ],
         },
       ],
@@ -90,14 +200,6 @@ const project: IProject.Payload = {
             {
               content:
                 '학습을 위해 간단히 제작해볼 수 있을만한게 무엇이 있을 까? 하다가 많은 ERP프로그램들에서 영감을 받아 거래를 기록이 가능할만한 웹사이트 프로젝트를 진행하였습니다',
-            },
-            {
-              content: 'Github Link : ',
-              postHref: 'https://github.com/donsonioc2010/4leafClover',
-            },
-            {
-              content: 'Blog Post : ',
-              postHref: 'https://devjong12.tistory.com/4?category=904410',
             },
           ],
         },
@@ -128,6 +230,14 @@ const project: IProject.Payload = {
             {
               content: '팀장을 맡으며 팀원의 기능 구현 보조',
               descriptions: [{ content: '개발 당시, 개발미숙 팀원이 많은 이슈가 존재' }],
+            },
+            {
+              content: 'Github Link : ',
+              postHref: 'https://github.com/donsonioc2010/4leafClover',
+            },
+            {
+              content: 'Blog Post : ',
+              postHref: 'https://devjong12.tistory.com/4?category=904410',
             },
           ],
         },
