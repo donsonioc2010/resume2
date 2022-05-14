@@ -16,6 +16,7 @@ import { Skill } from '../component/skill';
 import { Style } from '../component/common/Style';
 import Payload from '../payload';
 import { Article } from '../component/article';
+import { License } from '../component/license';
 
 function Yosume() {
   return (
@@ -31,11 +32,15 @@ function Yosume() {
         <Skill.Component payload={Payload.skill} />
         <Experience.Component payload={Payload.experience} />
         <Project.Component payload={Payload.project} />
-        <OpenSource.Component payload={Payload.openSource} />
+        {/* 오픈소스와 프레젠테이션의 경우엔 경험이 없기에 비활성화 처리 */}
+        {/* <OpenSource.Component payload={Payload.openSource} /> */}
         <Presentation.Component payload={Payload.presentation} />
-        <Article.Component payload={Payload.article} />
+        {/* <Article.Component payload={Payload.article} /> */}
         <Education.Component payload={Payload.education} />
-        <Etc.Component payload={Payload.etc} />
+        <License.Component payload={Payload.license} />
+        {/* Presentation을 ETC로 사용하고 진짜 etc를 숨김 */}
+        {/* <Etc.Component payload={Payload.etc} /> */}
+        {/* Footer를 지울까 하다가 이건 포크를 한 프로젝트라 일단 잔존함.. */}
         <Footer.Component payload={Payload.footer} />
       </Container>
     </>
