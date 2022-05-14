@@ -10,6 +10,31 @@ const project: IProject.Payload = {
       where: 'Study Project - 팀장',
       descriptions: [
         {
+          content: '개요',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '사진을 촬영하는 방법, 필터등등 사진에 대한 전반적인 정보에 대한 공유가 가능한 커뮤니티 사이트 제작 프로젝트',
+            },
+            {
+              content: 'Github Link : ',
+              postHref: 'https://github.com/JINNYYUN/Inphomation',
+            },
+            {
+              content: 'Blog Post : ',
+              postHref: 'https://devjong12.tistory.com/5?category=904410',
+            },
+          ],
+        },
+        {
+          content: '사용기술',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Java, JSP, Spring, HTML/CSS3, JavaScript, jQuery, Oracle, AWS EC2' },
+          ],
+        },
+        {
           content: '인프라',
           weight: 'MEDIUM',
           descriptions: [
@@ -53,6 +78,29 @@ const project: IProject.Payload = {
       endedAt: '2020-08',
       where: 'Study Project - 팀장',
       descriptions: [
+        {
+          content: '사용기술',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Java, JSP, Spring, HTML/CSS3, JavaScript, jQuery, Oracle' }],
+        },
+        {
+          content: '개요',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '학습을 위해 간단히 제작해볼 수 있을만한게 무엇이 있을 까? 하다가 많은 ERP프로그램들에서 영감을 받아 거래를 기록이 가능할만한 웹사이트 프로젝트를 진행하였습니다',
+            },
+            {
+              content: 'Github Link : ',
+              postHref: 'https://github.com/donsonioc2010/4leafClover',
+            },
+            {
+              content: 'Blog Post : ',
+              postHref: 'https://devjong12.tistory.com/4?category=904410',
+            },
+          ],
+        },
         {
           content: '인프라',
           weight: 'MEDIUM',
