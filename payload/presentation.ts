@@ -7,7 +7,8 @@ const presentation: IPresentation.Payload = {
     {
       title: 'Lorem ipsum',
       subTitle: 'consectetur adipiscing elit',
-      at: '2017-10',
+      startedAt: '2017-10',
+      endedAt: '2022-10',
       descriptions: [
         {
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
