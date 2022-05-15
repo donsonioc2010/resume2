@@ -18,10 +18,10 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://github.com/donsonioc2010/resume2",
+  "homepage": "https://donsonioc2010.github.io/resume2/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/donsonioc2010/resume2.git"
+    "url": "git+https://github.com/donsonioc2010/resume2"
   },
   "keywords": [
     "resume",
