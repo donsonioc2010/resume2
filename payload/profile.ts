@@ -34,10 +34,6 @@ const profile: IProfile.Payload = {
       link: 'https://devjong12.tistory.com',
       icon: faBlogger,
     },
-    {
-      link: 'https://www.facebook.com/jongwon.gim.35',
-      icon: faFacebook,
-    },
   ],
   notice: {
     title: '위에 기입되어 있듯 이메일을 통해서 연락주시면 감사하겠습니다.',
