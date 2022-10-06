@@ -4,6 +4,110 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'NooBLoL',
+      startedAt: '2022-07',
+      endedAt: '2022-10',
+      where: 'F-Lab',
+      descriptions: [
+        {
+          content: '개요',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: '게임 리그 오브 레전드(이하 "LOL")의 사용자 게임 전적 조회 및 커뮤니티 구현',
+            },
+          ],
+        },
+        {
+          content: '구현기능',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: '소환사명을 바탕으로 게임 전적 리스트에 대한 조회 API 개발',
+            },
+            {
+              content: '커뮤니티에서 사용이 되는 게시물에 대한 API 개발',
+            },
+            {
+              content: '사용자의 API 개발',
+              descriptions: [
+                {
+                  content: '일반 사용자의 사용 기능 개발',
+                },
+                {
+                  content: '관리자의 사용 기능 개발',
+                  descriptions: [
+                    {
+                      content: '일반 사용자의 권한, 탈퇴의 로직 구현',
+                    },
+                    {
+                      content: '게시판의 권한관리에 대한 로직 구현',
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              content: 'Git Action을 통한 CI / CD 구현',
+            },
+          ],
+        },
+        {
+          content: '이슈사항에 대한 정리',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: 'thymeleaf를 활용한 인증메일 발송의 템플릿 화 :',
+              postHref: 'https://devjong12.tistory.com/59',
+            },
+            {
+              content: 'MyBatis사용시 Dto의 상태값 Enum화 : ',
+              postHref: 'https://devjong12.tistory.com/76',
+            },
+            {
+              content: 'H2를 활용한 개발시 DB Type선언의 중요성 : ',
+              postHref: 'https://devjong12.tistory.com/58',
+            },
+            {
+              content: 'MockHttp를 활용한 테스트 케이스 구현',
+              postHref: 'https://devjong12.tistory.com/53',
+            },
+            {
+              content:
+                '그 외의 오류또는 리팩토링 과정에 대해서 블로그에 작성이 되어있으니 참고 부탁드립니다',
+            },
+          ],
+        },
+        {
+          content: 'ETC',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: 'DB Table Docs :',
+              descriptions: [
+                {
+                  content: '문서화 되는 페이지',
+                  postHref: 'https://dbdocs.io/donsonioc2010/NooBLoL',
+                },
+                {
+                  content: 'CD 배포 레포지토리',
+                  postHref: 'https://github.com/donsonioc2010/NooBLoL_DbDocs',
+                },
+              ],
+            },
+            {
+              content: 'Github Link : ',
+              postHref: 'https://github.com/f-lab-edu/NoobLoL',
+            },
+            {
+              content: 'Blog Post : ',
+              postHref: 'https://url.kr/ktegpl',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: 'Inphomation',
       startedAt: '2020-09',
       endedAt: '2020-10',

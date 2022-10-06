@@ -5,6 +5,32 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
+      title: 'F-Lab',
+      subTitle: 'Java Backend',
+      startedAt: '2022-05',
+      endedAt: '2022-10',
+      descriptions: [
+        {
+          content:
+            '내가 만든 코드가 실제 JVM에서 어떻게 실행이 이뤄지는가에 대한 예상을 깊이 생각해볼 수 있게 됨',
+        },
+        {
+          content:
+            'Primitive Type과 Wrapper Class의 차이를 명확히 이해하고 차이점을 활용한 개발을 할 수 있게 됨',
+        },
+        {
+          content: 'Exception의 중요성과 예방하는 방법들을 체감하고 개발에 적용할 수 있슴',
+        },
+        {
+          content: 'OOP에 대한 이해',
+        },
+        {
+          content:
+            '내가 어떻게 성장해야 하는가? 어떤 방식으로 성장해야 하는가?를 깊이 생각 할 수 있게 된 계기',
+        },
+      ],
+    },
+    {
       title: '디지털컨버전스 기반 Smart Web Content 개발자 양성과정',
       subTitle: '비트캠프-강남점 (국비)',
       startedAt: '2020-05',
